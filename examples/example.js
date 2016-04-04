@@ -83,12 +83,12 @@ var displayInstaBlocks = function(response, params) {
 
 $(function() {
   // Get an instance of a fetcher
-  var fetcher = new Instafetch('81e3d3f35c8a4438964001decaa5a31f');
+  var fetcher = new Instafetch('e7d8c67fb01940f8a1db712db0e06104');
 
   // Fetch results
   fetcher.fetch({
     user: 259220806, // This is the ID for 9gag, you can get the ID from username using http://jelled.com/instagram/lookup-user-id
-    tag: 'snow',
+    tag: '9gag',
     limit: 88,
     callback: displayInstaBlocks, // You can customize your own functionality by building from the logResults method
     params: '9gagBlock'
